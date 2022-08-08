@@ -1,0 +1,183 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{verbatim}
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Alessandro} % Your first name
+\familyname{Gasparello} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Via Jacopo della Quercia 66}{Mira 30034, Italia}
+\mobile{331 1068051}
+\email{alessandrogasparello98@gmail.com}
+% \homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\photo[70pt][0.4pt]{pictures/Fototessera} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\begin{comment}
+\clearpage
+
+\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Sir or Madam,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+\lipsum[1-2] % Dummy text
+\lipsum[4] % Dummy text
+
+\makeletterclosing % Print letter signature
+
+\newpage
+\end{comment}
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2019--2022}{Laurea triennale in Informatica}{Università Ca'Foscari Venezia}{Mestre}{\textit{GPA -- 8.0}}{Corso di laurea informatica - Data science}  % Arguments not required can be left empty
+\cventry{2012--2017}{Istituto tecnico superiore}{I.I.S. Primo Levi}{Mirano,VE}{}{Specializzazione in Elettronica}
+
+\section{Thesis}
+
+\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Vocational}
+
+\cventry{2018}{Operatore di macchina}{\textsc{Slim Fusina Rolling}}{Marghera}{}{Ho svolto un anno di lavoro come operatore di macchina, collabborando all'intenro di un team di 5 persone.
+\newline{}\newline{}
+Achievements:
+\begin{itemize}
+\item Collaborare all'interno di un team
+\item 
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{2017}{Addetto alle vendite}{\textsc{FootLocker}}{Marghera}{}{Ho svolto due mesi di stage presso il punto vendita FootLocker del centro commerciale "Nave de vero" di Marghera.}
+
+\cventry{2017}{Tecnico impianti e Software developer}{\textsc{Gasparini S.P.A.}}{Mirano}{}{Ho svolto un mese di stage svolgendo diverse mansioni quali riparazione e preparazioni di impianti elettrici, software development per macchinari aziendali.}
+
+%------------------------------------------------
+
+\subsection{Miscellaneous}
+
+\cventry{2017}{}{}{}{}{Ho svolto un corso d'inglese organizzato dal mio istituto scolastico.}
+
+\cventry{2017}{Patente di guida Tipo B}{Mira}{}{}{Ho ottenuto la licenza di guida di tipologia B presso Autoscuola Padana di Mira.}
+
+\cventry{2018}{Certificazione addetto antincendio}{Marghera}{}{}{Ho ottenuto la certificazione "Addetto antincendio" in seguito ad esame sostenuto presso la caserma dei Vigili del Fuoco di Marghera}
+
+\cventry{2022}{Certificazione CLA English B2}{Venezia}{}{}{Ho ottenuto la certificazione B2 d'inglese presso il Centro Linguistico di Atenero (CLA) di Università Ca'Foscari Venezia.}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Basic}{\textsc{python}, \LaTeX}
+\cvitem{Intermediate}{\textsc{html}, \textsc{javascript}, \textsc{Rstudio}}
+\cvitem{Advanced}{\textsc{c}, \textsc{java}}
+
+\begin{comment}
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Communication Skills}
+
+\cvitem{2010}{Oral Presentation at the California Business Conference}
+\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+\end{comment}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Italiano}{Mothertongue}{}
+\cvitemwithcomment{Inglese}{Intermediate}{B2 Level}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Tecnologia}{Coding}
+\cvlistdoubleitem{Sport}{Social}
+\cvlistitem{Cucina}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
